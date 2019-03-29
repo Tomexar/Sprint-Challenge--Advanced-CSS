@@ -116,3 +116,64 @@
   }
 
 }// home
+
+.head-img{
+  .navcontent();
+}
+
+.message{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  
+  h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed @border-real;
+  }
+  p{
+    padding-top: 10px;
+  }
+}
+
+.contact{
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+
+  .form{
+    flex-direction: column;
+    width:49%;
+    textarea{
+      margin: 10px 0;
+      padding: 5px 0;
+    }
+    .btn{
+      button{
+      .custom-btn();
+      }
+    }
+  }
+  .info {
+    width:30%;
+  }
+  h1{
+    font-size: 25px;
+    margin: 10px 0;
+  }
+  .address{
+    margin: 10px 0;
+  }
+  .phonenum{
+    margin:10px 0;
+  }
+  .website {
+    font-size: 20px;
+      a{
+        color:@main-font-color;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+}
