@@ -3,7 +3,7 @@
 .home {
 
   .intro {
-    padding-top: 84px;
+    .navcontent();///adds spacing for header
 
     .head-img{
       width:100%;
@@ -23,7 +23,7 @@
     flex-wrap: wrap;
     width: 100%;
 
-    @media (max-width:500px){
+    @media @phone{
       .launch {
         display: none;
       }
@@ -45,20 +45,20 @@
 
   .visit-planets {
     padding: 15px;
-    @media (max-width:500px){
+    @media @phone{
       padding:3px;
     }
 
     h3 {
       margin-top: 11px;
-      @media (max-width:500px){
+      @media @phone{
         margin-top: 2%;
       }
     }
 
     p {
       margin-top: 13px;
-      @media (max-width:500px){
+      @media @phone{
         padding-bottom: 4%;
       }
     }
@@ -70,14 +70,14 @@
     padding: 50px 60px;
     display: flex;
     justify-content: center;
-    @media (max-width:500px){
+    @media @phone{
       flex-direction: column;
       margin: 0px;
       padding:2%;
     }
     .walk-text {
       width: 50%;
-      @media (max-width:500px){
+      @media @phone{
         width:100%;
         padding-top: 4%;
       }
@@ -100,7 +100,7 @@
     .walk-img {
       width: 46%;
       margin-left: 4%;
-      @media (max-width:500px){
+      @media @phone{
         order:-1;
         width:100%;
         margin:0 ;

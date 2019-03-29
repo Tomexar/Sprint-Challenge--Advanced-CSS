@@ -44,11 +44,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
-    It sets the rem base to 10 making px to rem conversion doable without a calculator.
+    The deafault font size is 16 so 62.5% of 16 is 10 setting the base to 10, this makes px to rem conversion doable without a calculator.
 
 4. How would you describe preprocessing to someone new to CSS?
 
-    Preproccessing lets you format your css similar to how you format html with nesting.
+    Preproccessing lets you format your css similar to how you format html with nesting. The preproccessor will convert all of your nested code to normall css.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
